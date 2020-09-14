@@ -9,8 +9,16 @@
   ![系统字体设置](https://github.com/Ubuntuser2012/Clion_UserNotes/tree/master/png/font-setting1.png "系统字体设置")
   
   2） 编辑器字体颜色配置
+  
+  
   ## 2.2 打开方式
   1） *.ui文件打开方式添加
+     
+  a) 添加额外工具
+  ![设置添加工具](https://github.com/Ubuntuser2012/Clion_UserNotes/tree/master/png/font-setting1.png "添加工具")
+  ![添加Designer](https://github.com/Ubuntuser2012/Clion_UserNotes/tree/master/png/font-setting1.png "添加QtDesigner")
+  ![使用QtDesigner](https://github.com/Ubuntuser2012/Clion_UserNotes/tree/master/png/font-setting1.png "使用QtDesigner")
+  
   ## 2.3 插件
   ## 2.4 其他配置
   1） 文件修改之后显示*号
