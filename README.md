@@ -6,7 +6,7 @@
   ## 2.1 字体
   1） 字体<a href="https://github.com/Ubuntuser2012/Clion_UserNotes/blob/master/font/YaHei.Consolas.1.12.ttf">YaHei&Consolas</a>
   
-  ![字体设置截图]( "字体设置")
+  ![系统字体设置](https://github.com/Ubuntuser2012/Clion_UserNotes/tree/master/png/font-setting1.png "系统字体设置")
   
   2） 编辑器字体颜色配置
   ## 2.2 打开方式
