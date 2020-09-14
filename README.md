@@ -4,7 +4,9 @@
   2. 笔者使用的是windows版本的，一路默认安装，其他版本可以搜索安装方法。
 # 2 环境配置
   ## 2.1 字体
-  1） 字体Mono
+  1） 字体<a href="https://github.com/Ubuntuser2012/Clion_UserNotes/blob/master/font/YaHei.Consolas.1.12.ttf">YaHei&Consolas</a>
+  
+  ![字体设置截图]( "字体设置")
   
   2） 编辑器字体颜色配置
   ## 2.2 打开方式
