@@ -48,6 +48,7 @@
   Clion对MSVC调试只支持lldb调试<a href="https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html#msvc-debugger" target="_blank">LLDB-based MSVC debugger。</a>
   Clion可以配置NatVis调试视图，支持加载NatVis脚本。针对Qt可以使用qt5.natvis脚本以便支持Qt内置变量的调试（QString、QList、QHash等）
 
-# 5 Lin Linux使用JetBrains软件时，不要安装搜狗输入法，不知道为什么会导致软件死机，卸载搜狗输入法之后，JetBrains软件正常启动。
+# 5 Linux
+  Linux使用JetBrains软件时，不要安装搜狗输入法，不知道为什么会导致软件死机，卸载搜狗输入法之后，JetBrains软件正常启动。
 备注：图后续补上，第一次写不太好见谅~~  
   
