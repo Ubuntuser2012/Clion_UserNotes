@@ -48,6 +48,24 @@
   Clion对MSVC调试只支持lldb调试<a href="https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html#msvc-debugger" target="_blank">LLDB-based MSVC debugger。</a>
   Clion可以配置NatVis调试视图，支持加载NatVis脚本。针对Qt可以使用qt5.natvis脚本以便支持Qt内置变量的调试（QString、QList、QHash等）
 
-# 5 Lin Linux使用JetBrains软件时，不要安装搜狗输入法，不知道为什么会导致软件死机，卸载搜狗输入法之后，JetBrains软件正常启动。
+# 5 Linux
+  Linux使用JetBrains软件时，不要安装搜狗输入法，不知道为什么会导致软件死机，卸载搜狗输入法之后，JetBrains软件正常启动。经测试，搜狗输入法同样导致XDM下载软件死机。
+  使用输入法经测试可以使用谷歌拼音输入法，不会导致JetBrains和XDM相关软件假死。
+  
+  谷歌拼音安装
+    
+    sudo apt install fcitx
+    im-config
+    sudo apt install fcitx-googlepinyin -y
+    fcitx-config-gtk3
+    
+  JetBrains配置使用中文输入法，修改/opt/clion-2020.2.3/bin/clion.sh（安装目录下），在最前面添加如下代码：
+  
+    # 输入法配置（fcitx架构）
+    export GTK_IM_MODULE=fcitx
+    export QT_TM_MODULE=fcitx
+    export XMODIFIERS=@im=fcitx
+    
+    
 备注：图后续补上，第一次写不太好见谅~~  
   
